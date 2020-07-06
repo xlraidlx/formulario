@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <title> Formulario de contacto </title>
+    <meta charset="UTF=8">
+    <link rel="stylesheet" href="estilos.css">
+</HEAD>
+<BODY>
+    <form action="enviar.pho" method="post">
+        <h2>Formato Entrevista</h2>
+
+        <div id="div_file">
+			<p id="texto">Adjunte foto</p>
+			<input type="file" id="btn_enviar" name="Foto">
+		</div>
+
+        <input type="text" name="Nombre"  placeholder="Nombre" id="Nombre" required>
+        <input type="text" name="Apellido" placeholder="Apellido" required>
+        <input type="text" name="Cedula" placeholder="Cedula"required>
+        <input type="text" name="Numero" placeholder="Numero de contacto"required><br>
+        <input type="text" name="Edad" placeholder="Fecha de nacimiento"required>
+        <input type="text" name="Ciudad" placeholder="Ciudad/Municipio"required><br>
+        <h2 id="Sub">Sexo</h2>
+        <input type="radio" id="radio" name="sexo">Masculino<br>
+        <input type="radio" id="radio"name="sexo">Femenino<br>
+        <input type="radio" id="radio"name="sexo">Transgenero<br>
+        <input type="text" id="otros" name="sexualidad" placeholder="Inclinacion sexual">
+        <h2 id="Sub">Experiencia como modelo</h2>
+        <input type="radio" id="radio" name="Experiencia">Si<br>
+        <input type="radio" id="radio" name="Experiencia">No<br>
+        <h2 id="Sub">Tiene hijos</h2>
+        <input type="radio" id="radio" name="Experiencia">Si<br>
+        <input type="radio" id="radio" name="Experiencia">No<br>
+        <h2 id="Educativo">Nivel Educativo</h2>
+        <h2 id="Sub">Estudios</h2>
+        <input type="radio" id="radio" name="Nivel">Primaria<br>
+        <input type="radio" id="radio" name="Nivel">Bachiller<br>
+        <input type="radio" id="radio" name="Nivel">Tecnico<br>
+        <input type="radio" id="radio" name="Nivel">Universitario<br>
+        <input type="radio" id="radio" name="Nivel">Posgrado<br>
+        <h2 id="Sub">Estudia actualmente</h2>
+        <input type="radio" id="radio" name="Cursa" >Si<br>
+        <input type="radio" id="radio" name="Cursa" >No <br>
+        <input type="text" id="otros" name="Estudia" placeholder= "&iquest;Que estudia?"> <br>
+        <input type="text" id="otros" name="Institucion" placeholder="Nombre de la Institucion"><br>
+        <input type="text" id="otros" name="Localizacion" placeholder="Ciudad/Municipio">
+        <h2 id="Sub">Idiomas</h2>
+        <input type="radio" id="radio" name="Español">Espa&ntilde;ol<br>
+        <input type="radio" id="radio" name="Ingles">Ingles<br>
+        <input type="radio" id="radio" name="Frances">Frances<br>
+        <input type="radio" id="radio" name="Portugues">Portugues<br>
+        <input type="text" id="otros" name="Idiomas" placeholder="Otros">
+        <textarea id="Ocupacion" type="text" name="Ocupacion" Placeholder="Cuentanos porque quiere ser modelo webcam y sus aspiraciones"required></textarea>
+        <h2 id="Sub">Deseas trabajar como modelo en:</h2>
+        <input type="radio" id="radio" name="Pareja">Solitario<br>
+        <input type="radio" id="radio" name="Pareja">Pareja<br>
+
+        <h2 id="datos">Datos de la pareja</h2>
+        <h3 id="pareja">(solo llenar si trabajara en pareja)</h3>
+
+        <div id="div_file">
+			<p id="texto">Adjunte foto</p>
+			<input type="file" id="btn_enviar" name="Foto2">
+        </div>
+        
+
+        <input type="text" name="Nombre2"  placeholder="Nombre" id="Nombre" required>
+        <input type="text" name="Apellido2" placeholder="Apellido" required>
+        <input type="text" name="Cedula2" placeholder="Cedula"required>
+        <input type="text" name="Numero2" placeholder="Fecha de nacimiento"required><br>
+        <input type="text" name="Edad2" placeholder="Edad"required>
+        <input type="text" name="Ciudad2" placeholder="Ciudad/Municipio"required><br>
+        <h2 id="Sub">Sexo</h2>
+        <input type="radio" id="radio" name="sexo2">Masculino<br>
+        <input type="radio" id="radio"name="sexo2">Femenino<br>
+        <input type="radio" id="radio"name="sexo2">Transgenero<br>
+        <input type="text" id="otros" name="sexualidad2" placeholder="Inclinacion sexual">
+        <h2 id="Sub">Experiencia como modelo</h2>
+        <input type="radio" id="radio" name="Experiencia2">Si<br>
+        <input type="radio" id="radio" name="Experiencia2">No<br>
+        <h2 id="Sub">Tiene hijos</h2>
+        <input type="radio" id="radio" name="Experiencia2">Si<br>
+        <input type="radio" id="radio" name="Experiencia2">No<br>
+        <h2 id="Educativo">Nivel Educativo</h2>
+        <h2 id="Sub">Estudios</h2>
+        <input type="radio" id="radio" name="Nivel2">Primaria<br>
+        <input type="radio" id="radio" name="Nivel2">Bachiller<br>
+        <input type="radio" id="radio" name="Nivel2">Tecnico<br>
+        <input type="radio" id="radio" name="Nivel2">Universitario<br>
+        <input type="radio" id="radio" name="Nivel2">Posgrado<br>
+        <h2 id="Sub">Estudia actualmente</h2>
+        <input type="radio" id="radio" name="Cursa2" >Si<br>
+        <input type="radio" id="radio" name="Cursa2" >No <br>
+        <input type="text" id="otros" name="Estudia2" placeholder= "&iquest;Que estudia?"> <br>
+        <input type="text" id="otros" name="Institucion2" placeholder="Nombre de la Institucion"><br>
+        <input type="text" id="otros" name="Localizacion2" placeholder="Ciudad/Municipio">
+        <h2 id="Sub">Idiomas</h2>
+        <input type="radio" id="radio" name="Español2">Espa&ntilde;ol<br>
+        <input type="radio" id="radio" name="Ingles2">Ingles<br>
+        <input type="radio" id="radio" name="Frances2">Frances<br>
+        <input type="radio" id="radio" name="Portugues2">Portugues<br>
+        <input type="text" id="otros" name="Idiomas2" placeholder="Otros">
+        <textarea id="Ocupacion" type="text" name="Ocupacion2" Placeholder="Cuentanos porque quiere ser modelo webcam y sus aspiraciones"required></textarea>
+
+
+    </form>
+</BODY>
+
+</HTML>
